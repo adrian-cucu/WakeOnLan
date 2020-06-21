@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "561088783008",
+    "firebase_url": "https://mac-vendors-cde96.firebaseio.com",
+    "project_id": "mac-vendors-cde96",
+    "storage_bucket": "mac-vendors-cde96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561088783008:android:ab6c809c5897d92fe91fc5",
+        "android_client_info": {
+          "package_name": "com.wakeonlan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561088783008-ptmp50pvg9oj7uh205po2tfa3jokrj0f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wakeonlan",
+            "certificate_hash": "746546283dbbf87cfe5fc9829dccb3599b0bc09e"
+          }
+        },
+        {
+          "client_id": "561088783008-vkq19bv63v68lgdetdak5ebs95gvrlar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP2PPu6PdtwgV-fSXYV5RobQhANbS_IK8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561088783008-vkq19bv63v68lgdetdak5ebs95gvrlar.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WakeOnLan</string>
+
+    <!--    Diacritice (ăâîșț) Î - -->
+    <string name="navigation_drawer_open">Deschide bara de navigație</string>
+    <string name="navigation_drawer_close">Închide bara de navigație</string>
+
+    <string name="device_list_add_new_device">Adaugă un dispozitiv nou</string>
+    <string name="device_list_is_empty">Lista de dispozitive este goală</string>
+
+    <string name="input_hint_device_name">Numele dispozitivului</string>
+    <string name="input_hint_mac">Adresă MAC</string>
+    <string name="input_port_text">Numărul portului - implicit foloseste portul 9</string>
+    <string name="input_hint_port">0 până la 65535</string>
+    <string name="input_ip_text">Adresă IP statică a dispozitivului - implicit adresa de broadcast a rețelei</string>
+    <string name="input_hint_ip">0.0.0.0</string>
+    <string name="input_add_confirm_button">Adăugare</string>
+    <string name="input_advanced_options">Setări avansate - Opționale</string>
+    <string name="input_save_confirm_button">Salvează</string>
+    <string name="input_back_button">Înapoi</string>
+
+    <string name="error_empty_input_device_name">Numele dispozitivului nu poate fi gol</string>
+    <string name="error_empty_input_mac">Adresa MAC este necesară</string>
+
+    <string name="error_invalid_input_mac">Adresa MAC este invalidă</string>
+    <string name="error_invalid_input_port">Numarul portului este invalid</string>
+    <string name="error_invalid_input_ip">Adresa IP nu este validă</string>
+
+    <string name="dialog_option_yes">Da</string>
+    <string name="dialog_option_no">Nu</string>
+
+    <string name="error_wifi_not_connected">Nu sunteți conectat la nici o rețea wireless!</string>
+
+    <string name="error_rate_app_not_found">Nu aveți nici o aplicație instalată pentru asta</string>
+
+    <string name="activity_search_devices_title">Caută dispozitive</string>
+
+    <string name="activity_settings_title">Setări</string>
+
+    <string name="menu_item_devices">Dispozitive</string>
+    <string name="menu_item_settings">Setări</string>
+    <string name="menu_item_share">Distribuie</string>
+    <string name="menu_item_rate_app">Evaluează aplicația</string>
+
+</resources>

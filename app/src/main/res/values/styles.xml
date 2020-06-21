@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <!--    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+
+    <!--    <style name="AppTheme.NoActionBar">-->
+    <!--        <item name="windowActionBar">false</item>-->
+    <!--        <item name="windowNoTitle">false</item>-->
+    <!--        &lt;!&ndash;        <item name="android:statusBarColor">@android:color/darker_gray</item>&ndash;&gt;-->
+    <!--    </style>-->
+
+
+    <style name="AppThemeLight" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Dark variant of the primary branding color. By default, this is the color applied to
+            the status bar (via statusBarColor) and navigation bar (via navigationBarColor). -->
+        <item name="colorPrimaryDark">#023874</item>
+        <!-- The primary branding color for the app. By default, this is the color applied to the
+                    action bar background. -->
+        <item name="colorPrimary">#0064C7</item>
+        <!-- Bright complement to the primary branding color. By default, this is the color applied
+            to framework controls (via colorControlActivated). -->
+        <item name="colorAccent">#1C94EC</item>
+
+        <item name="colorControlNormal">#1720B6</item>
+        <item name="colorControlActivated">#061E7E</item>
+        <item name="colorControlHighlight">#B3BFFF</item>
+        <!--        <item name="colorControlHighlight">#ff0000</item>-->
+
+<!--        android:textColor="#5DBCD2"-->
+
+        <item name="actionBarStyle">@style/ActionBarStyleLight</item>
+        <item name="android:actionMenuTextColor">@color/textColorPrimary</item>
+
+
+        <!--        @android:color/white-->
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:editTextColor">@color/textColorPrimary</item>
+        <item name="android:textColorHint">@android:color/darker_gray</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">#AAAAAA</item>
+        <item name="android:textColorTertiary">@color/textColorPrimary</item>
+
+<!--        <item name="android:textColorPrimaryInverse">@color/textColorPrimary</item>-->
+<!--        <item name="android:textColorSecondaryInverse">@color/textColorPrimary</item>-->
+<!--        <item name="android:textColorTertiaryInverse">@color/textColorPrimary</item>-->
+
+        <item name="android:navigationBarColor">#FFE5E5E5</item>
+        <item name="android:windowBackground">@color/background_window</item>
+
+
+        <item name="ic_arrow_back">@drawable/ic_arrow_back_black</item>
+        <item name="ic_confirm_list">@drawable/ic_confirm_list_black</item>
+        <item name="ic_add">@drawable/ic_add_white</item>
+        <item name="ic_button_background">@drawable/icon_rounded_background</item>
+        <item name="switch_track">@drawable/switch_track</item>
+        <item name="switch_thumb">@drawable/switch_thumb</item>
+    </style>
+
+
+    <!--    <style name="AppThemeDark" parent="Theme.AppCompat">-->
+    <style name="AppThemeDark" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Dark variant of the primary branding color. By default, this is the color applied to
+         the status bar (via statusBarColor) and navigation bar (via navigationBarColor). -->
+        <item name="colorPrimaryDark">@android:color/black</item>
+        <!-- The primary branding color for the app. By default, this is the color applied to the
+            action bar background. -->
+        <item name="colorPrimary">#131313</item>
+        <!-- Bright complement to the primary branding color. By default, this is the color applied
+            to framework controls (via colorControlActivated). -->
+        <item name="colorAccent">#C0C0C0</item>
+
+<!--        <item name="colorControlNormal">#1720B6</item>-->
+<!--        <item name="colorControlActivated">#061E7E</item>-->
+<!--        <item name="colorControlHighlight">#B3BFFF</item>-->
+
+        <item name="actionBarStyle">@style/ActionBarStyleDark</item>
+        <item name="android:actionMenuTextColor">@color/textColorPrimaryDark</item>
+
+
+        <!--  Culoare mai deschisa       -->
+        <item name="android:textColor">#fff</item>
+        <item name="android:editTextColor">#999999</item>
+
+        <!--  Culoare mai inchisa       -->
+        <item name="android:textColorHint">#C0C0C0</item>
+
+
+        <item name="android:textColorPrimary">#B1B1B1</item>
+        <item name="android:textColorSecondary">#C0C0C0</item>
+        <item name="android:textColorTertiary">#979797</item>
+<!--        <item name="android:textColorPrimaryInverse">@color/textColorPrimaryDark</item>-->
+<!--        <item name="android:textColorSecondaryInverse">@color/textColorPrimaryDark</item>-->
+<!--        <item name="android:textColorTertiaryInverse">@color/textColorPrimaryDark</item>-->
+
+        <item name="android:navigationBarColor">#ff000000</item>
+
+        <item name="android:windowBackground">@color/background_window_dark</item>
+
+        <item name="android:windowFullscreen">true</item>
+
+
+        <item name="ic_arrow_back">@drawable/ic_arrow_back_white</item>
+        <item name="ic_confirm_list">@drawable/ic_confirm_list_white</item>
+        <item name="ic_add">@drawable/ic_add_white</item>
+        <item name="ic_button_background">@drawable/icon_rounded_background_dark</item>
+        <item name="switch_track">@drawable/switch_track_dark</item>
+        <item name="switch_thumb">@drawable/switch_thumb_dark</item>
+    </style>
+
+
+    <style name="ActionBarStyleLight" parent="@style/ThemeOverlay.AppCompat.Light">
+        <item name="colorControlNormal">#fff</item>
+        <item name="android:textColorPrimary">#fff</item>
+        <item name="android:textColorSecondary">#fff</item>
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+
+    <style name="ActionBarStyleDark" parent="@style/ThemeOverlay.AppCompat.Light">
+        <!--            <item name="actionMenuTextColor">#ffffffff</item>-->
+        <!--            <item name="actionOverflowButtonStyle">@style/ActionButtonOverflowStyle</item>-->
+        <!--        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>-->
+        <item name="colorControlNormal">#fff</item>
+        <item name="android:textColorPrimary">#fff</item>
+        <item name="android:textColorSecondary">#fff</item>
+        <item name="android:background">?attr/colorPrimary</item>
+
+    </style>
+
+
+    <!--    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">-->
+    <!--        <item name="drawableSize">40dp</item>-->
+    <!--        <item name="spinBars">true</item>-->
+    <!--        <item name="color">@android:color/holo_red_dark</item>-->
+    <!--        <item name="android:background">@drawable/ic_star</item>-->
+    <!--    </style>-->
+
+<!--    <style name="myDefaultButton">-->
+<!--        <item name="android:textColor">#hexColorForButtons</item>-->
+<!--&lt;!&ndash;        <item name="android:drawableTint">#hexColorForButtons</item>&ndash;&gt;-->
+<!--        &lt;!&ndash; other stuff you want your buttons to inherit by default &ndash;&gt;-->
+<!--    </style>-->
+
+
+    <style name="MenuItemsStyle" parent="android:TextAppearance">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+
+    <style name="PopupWindowAnimation">
+        <item name="android:windowEnterAnimation">@anim/popup_show</item>
+        <item name="android:windowExitAnimation">@anim/popup_hide</item>
+    </style>
+
+
+
+
+    <style name="Dialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">false</item>
+        <!--        <item name="android:windowBackground">@android:color/transparent</item>-->
+        <item name="android:windowBackground">@drawable/rounded_corners</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Attributes must be lowercase as we want to use them for drawables -->
+    <attr name="ic_arrow_back" format="reference" />
+    <attr name="ic_confirm_list" format="reference" />
+    <attr name="ic_add" format="reference" />
+
+    <attr name="ic_button_background" format="reference" />
+
+    <attr name="switch_thumb" format="reference" />
+    <attr name="switch_track" format="reference" />
+</resources>

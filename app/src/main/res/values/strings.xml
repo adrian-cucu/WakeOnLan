@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">WakeOnLan</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="device_list_add_new_device">Add new device</string>
+    <string name="device_list_is_empty">Device list is empty</string>
+
+    <string name="input_hint_device_name">Device display name</string>
+    <string name="input_hint_mac">MAC address</string>
+    <string name="input_port_text">Port number - Default 9</string>
+    <string name="input_hint_port">0 to 65535</string>
+    <string name="input_ip_text">Static IP address - Defaults to network broadcast address</string>
+    <string name="input_hint_ip">0.0.0.0</string>
+    <string name="input_add_confirm_button">Add</string>
+    <string name="input_advanced_options">Advanced options - Optional</string>
+    <string name="input_save_confirm_button">Save</string>
+    <string name="input_back_button">Back</string>
+
+    <string name="error_empty_input_device_name">Device name can\'t be empty</string>
+    <string name="error_empty_input_mac">MAC address required</string>
+
+    <string name="error_invalid_input_mac">MAC address is invalid</string>
+    <string name="error_invalid_input_port">Port number is not valid</string>
+    <string name="error_invalid_input_ip">IP address is not valid</string>
+
+    <string name="error_wifi_not_connected">You\'re not connected to any wireless network!</string>
+
+    <string name="error_rate_app_not_found">You don\'t have any app that can open this link</string>
+
+    <string name="dialog_option_yes">Yes</string>
+    <string name="dialog_option_no">No</string>
+
+    <string name="activity_search_devices_title">Search devices</string>
+
+    <string name="activity_settings_title">Settings</string>
+
+    <string name="menu_item_devices">Devices</string>
+    <string name="menu_item_settings">Settings</string>
+    <string name="menu_item_share">Share</string>
+    <string name="menu_item_rate_app">Rate this app</string>
+
+</resources>

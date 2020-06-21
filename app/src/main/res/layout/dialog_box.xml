@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_corners"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:focusable="false"
+        android:inputType="textMultiLine"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_toLeftOf="@id/space"
+            android:clickable="true"
+            android:background="?attr/colorPrimary"
+            android:text="@string/dialog_option_yes"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <Space
+            android:id="@+id/space"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <Button
+            android:id="@+id/btn_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@id/space"
+            android:clickable="true"
+            android:text="@string/dialog_option_no"
+            android:textColor="@android:color/white"
+            android:background="?attr/colorPrimary"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
